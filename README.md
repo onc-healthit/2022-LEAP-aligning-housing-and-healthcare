@@ -18,7 +18,3 @@ The following is an architecture diagram (Figure 1) of the entire referral infra
 •	Backend Services: This is the backend service for the eCare Plan. It performs operations such as querying, creating, saving, and updating FHIR resources in the Social Care Hub.
 •	eCare Plan: The eCare Plan is the user-facing application that allows both the community-based organization and CHC users to see and interact with the Referral information stored in the Social Care Hub.
 •	Azure Active Directory: Azure Active Directory (recently renamed “Microsoft Entra ID”) is a cloud-based identity and access management solution. CBO and CHC users who should have access to the eCare Plan are added by the Azure administrator to the Azure Active Directory. The users use an email and password which is validated by Azure AD to get access to the eCare Plan.
-
-Figure 1 AC LEAP Architecture Master Diagram
-
-
